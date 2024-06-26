@@ -14,7 +14,11 @@ export function UserContextProvider({ children }) {
   },[]);
 
   return (
+<<<<<<< HEAD
     <UserContext.Provider value={[user, setUser]}>
+=======
+    <UserContext.Provider value={{user, setUser}}>
+>>>>>>> f535f35 (This is the first commit of this project in main branch. The repo consists of client and server folders.)
       {children}
     </UserContext.Provider>
   );
