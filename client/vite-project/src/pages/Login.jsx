@@ -23,11 +23,7 @@ function Login() {
       } else {
         setData({});
         toast.success("Login successful");
-<<<<<<< HEAD
-        navigate("/");
-=======
         navigate("/dashboard");
->>>>>>> f535f35 (This is the first commit of this project in main branch. The repo consists of client and server folders.)
       }
     } catch (error) {
       console.log(error);
